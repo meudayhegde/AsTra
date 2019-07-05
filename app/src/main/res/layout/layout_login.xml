@@ -31,7 +31,7 @@
                 style="@style/modifiedEditText"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
-                android:hint="@string/login_email_hint"/>
+                android:hint="@string/login_uid_hint"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -69,6 +69,7 @@
             android:textColor="@color/primaryTextColor"
             android:text="@string/login_signup_hint"
             android:onClick="viewRegisterClicked"
+            android:visibility="gone"
             android:layout_marginTop="@dimen/loginViewsMargin"/>
 
 

@@ -3,7 +3,7 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:orientation="vertical"
 style="@style/loginParent"
-tools:context="com.coleague.astra.MainActivity">
+tools:context="com.coleague.astra.LoginActivity">
 <ScrollView
     style="@style/parent">
 
@@ -45,20 +45,14 @@ tools:context="com.coleague.astra.MainActivity">
             <TextView
                 style="@style/headerText"
                 android:layout_gravity="center"
-                android:text="App Snipp"
+                android:text="Asset Tracker"
                 android:layout_marginTop="40dp"/>
             <include
-                layout="@layout/layout_register"/>
+                layout="@layout/layout_login"
+                android:id="@+id/layout_login" />
 
         </LinearLayout>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="10dp"
-            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
     </RelativeLayout>
 
 </ScrollView>
